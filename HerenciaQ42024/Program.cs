@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using HerenciaQ42024;
+
+Vertebrado vertebrado = new Vertebrado();
+vertebrado.Nombre = "Tiburon";
+vertebrado.Imprimir();
