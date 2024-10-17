@@ -13,14 +13,14 @@ namespace HerenciaQ42024
         public void Imprimir()
         {
             Console.WriteLine($"Nombre: {Nombre}");
-            Console.WriteLine($"Edad: {Edad}");
+            Console.WriteLine($"Edad: {Edad} años");
             Console.WriteLine($"Especie: {Especie}");
             Console.WriteLine($"Habitat: {Habitat}");
             Console.WriteLine($"Tipo de esqueleto: {TipoEsqueleto}");
             Console.WriteLine($"Número de extremidades: {NumeroExtremidades}");
             Console.WriteLine($"Tipo de Sangre: {TipoSangre}");
             Console.WriteLine($"Dieta: {Dieta}");
-            Console.WriteLine($"Expectativa de Vida: {ExpectativaVida}");
+            Console.WriteLine($"Expectativa de Vida: {ExpectativaVida} años");
             Console.WriteLine($"Reproducción: {Reproduccion}");
         }
     }
